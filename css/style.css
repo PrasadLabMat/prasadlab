@@ -244,6 +244,12 @@ body {
   margin-bottom: 14px;
 }
 
+img.avatar {
+  opacity: 1;
+  object-fit: cover;
+  background: var(--color-border);
+}
+
 .person-card h4 { margin: 0 0 4px; }
 
 .role {
