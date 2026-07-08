@@ -186,6 +186,14 @@ body {
 
 .group-title:first-of-type { margin-top: 0; }
 
+.card-subtitle {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 20px 0 10px;
+}
+
 /* People */
 .people-grid {
   display: grid;
