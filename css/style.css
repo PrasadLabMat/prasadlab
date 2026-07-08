@@ -207,6 +207,34 @@ body {
   transform: translateY(-2px);
 }
 
+.people-grid--featured {
+  grid-template-columns: 1fr;
+}
+
+.person-card--featured {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 28px;
+}
+
+.person-card--featured .avatar {
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
+  margin-bottom: 0;
+}
+
+.person-card--featured .person-card__content {
+  min-width: 0;
+}
+
+@media (max-width: 560px) {
+  .person-card--featured {
+    flex-direction: column;
+  }
+}
+
 .avatar {
   width: 64px;
   height: 64px;
