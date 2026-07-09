@@ -228,13 +228,12 @@ body {
 
 .person-card__media {
   flex-shrink: 0;
-  width: 180px;
 }
 
 .person-card--featured .avatar {
   width: 96px;
   height: 96px;
-  margin-bottom: 14px;
+  margin-bottom: 0;
 }
 
 .person-card--featured .person-card__content {
