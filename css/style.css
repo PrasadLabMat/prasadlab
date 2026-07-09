@@ -320,6 +320,18 @@ img.avatar {
 .alumni-list--compact { font-size: 0.85rem; }
 .alumni-list--compact li { padding: 5px 0; }
 
+.funding-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.funding-icon {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: var(--color-accent);
+}
+
 /* Research */
 .research-grid {
   display: grid;
