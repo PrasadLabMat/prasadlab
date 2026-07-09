@@ -373,6 +373,20 @@ img.avatar {
 .alumni-list--compact { font-size: 0.85rem; }
 .alumni-list--compact li { padding: 5px 0; }
 
+.alumni-list li.has-photo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.alumni-list li.has-photo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 .funding-list li {
   display: flex;
   align-items: flex-start;
