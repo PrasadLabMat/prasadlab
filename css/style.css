@@ -509,6 +509,14 @@ img.avatar {
   font-size: 0.9rem;
 }
 
+.news-thumb {
+  flex-shrink: 0;
+  width: 84px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
 /* Contact */
 .contact-grid {
   display: grid;
