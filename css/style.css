@@ -254,6 +254,14 @@ body {
   margin-bottom: 4px;
 }
 
+.mini-list--link {
+  margin-top: 10px;
+}
+
+.mini-list--link a {
+  color: var(--color-accent);
+}
+
 @media (max-width: 560px) {
   .person-card--featured {
     flex-direction: column;
