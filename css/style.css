@@ -186,6 +186,8 @@ body {
 
 .group-title:first-of-type { margin-top: 0; }
 
+.group-title--dark { color: var(--color-text); }
+
 .card-subtitle {
   font-size: 0.85rem;
   color: var(--color-text-muted);
