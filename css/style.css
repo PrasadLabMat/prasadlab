@@ -601,6 +601,67 @@ img.avatar {
 }
 
 /* Publications */
+.pub-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.pub-year-nav {
+  position: sticky;
+  top: 84px;
+  flex-shrink: 0;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pub-year-nav a {
+  color: var(--color-text-muted);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.pub-year-nav a:hover {
+  color: var(--color-primary);
+}
+
+.pub-year-nav a.is-active {
+  color: var(--color-primary);
+  border-left: 2px solid var(--color-primary);
+  padding-left: 10px;
+  margin-left: -12px;
+}
+
+.pub-content {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 720px) {
+  .pub-layout {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .pub-year-nav {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 16px;
+  }
+
+  .pub-year-nav a.is-active {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+    text-decoration: underline;
+  }
+}
+
 .pub-list {
   list-style: none;
   padding: 0;
