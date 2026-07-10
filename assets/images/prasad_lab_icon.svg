@@ -1,0 +1,13 @@
+<svg viewBox="24 11 132 142" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Prasad Lab hexagonal crystal lattice icon</title>
+  <polygon points="90,23 144,54 144,116 90,147 36,116 36,54" fill="none" stroke="#334155" stroke-width="4" stroke-linejoin="round" opacity="0.85"/>
+  <polygon points="90,23 144,116 36,116" fill="none" stroke="#64748b" stroke-width="2.5" opacity="0.55"/>
+
+  <circle cx="144" cy="54" r="6" fill="#94a3b8"/>
+  <circle cx="90" cy="147" r="6" fill="#94a3b8"/>
+  <circle cx="36" cy="54" r="6" fill="#94a3b8"/>
+
+  <circle cx="90" cy="23" r="12" fill="#c2622a"/>
+  <circle cx="144" cy="116" r="12" fill="#0d9488"/>
+  <circle cx="36" cy="116" r="12" fill="#4338ca"/>
+</svg>
