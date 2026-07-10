@@ -617,6 +617,22 @@ img.avatar {
   margin: 0;
 }
 
+.scroll-list {
+  overflow-y: auto;
+}
+
+.scroll-list--news {
+  max-height: 350px;
+}
+
+.scroll-list--grad {
+  max-height: 280px;
+}
+
+.scroll-list--undergrad {
+  max-height: 213px;
+}
+
 .news-list li {
   display: flex;
   gap: 20px;
