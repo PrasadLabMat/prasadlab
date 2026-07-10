@@ -615,6 +615,8 @@ img.avatar {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  margin-left: calc(-1 * max(0px, (100vw - var(--max-width)) / 2));
+  margin-right: max(0px, (100vw - var(--max-width)) / 2);
 }
 
 .pub-year-nav a {
