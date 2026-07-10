@@ -489,6 +489,10 @@ img.avatar {
   color: var(--color-text);
 }
 
+.research-contributions a {
+  color: var(--color-accent);
+}
+
 .tile-badge {
   display: inline-block;
   background: var(--color-accent);
