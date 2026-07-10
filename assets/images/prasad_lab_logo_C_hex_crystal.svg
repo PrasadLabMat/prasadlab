@@ -1,0 +1,26 @@
+<svg viewBox="0 0 900 170" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Prasad Lab for Materials Research — Hexagonal Crystal Lattice logo</title>
+  <defs>
+    <linearGradient id="titleGradC" x1="200" y1="60" x2="820" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c2622a"/>
+      <stop offset="0.5" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+
+  <!-- icon: hexagonal crystal lattice with three accent atoms (echoes original 3-dot palette) -->
+  <polygon points="90,23 144,54 144,116 90,147 36,116 36,54" fill="none" stroke="#334155" stroke-width="4" stroke-linejoin="round" opacity="0.85"/>
+  <polygon points="90,23 144,116 36,116" fill="none" stroke="#64748b" stroke-width="2.5" opacity="0.55"/>
+
+  <circle cx="144" cy="54" r="6" fill="#94a3b8"/>
+  <circle cx="90" cy="147" r="6" fill="#94a3b8"/>
+  <circle cx="36" cy="54" r="6" fill="#94a3b8"/>
+
+  <circle cx="90" cy="23" r="12" fill="#c2622a"/>
+  <circle cx="144" cy="116" r="12" fill="#0d9488"/>
+  <circle cx="36" cy="116" r="12" fill="#4338ca"/>
+
+  <!-- wordmark -->
+  <text x="200" y="97" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="58" fill="url(#titleGradC)" letter-spacing="0.5">PRASAD LAB</text>
+  <text x="203" y="129" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="20" fill="#475569" letter-spacing="3">FOR MATERIALS RESEARCH</text>
+</svg>

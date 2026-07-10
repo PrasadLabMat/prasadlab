@@ -63,10 +63,15 @@ body {
 }
 
 .brand {
-  font-weight: 700;
-  font-size: 1.15rem;
-  color: var(--color-primary);
+  display: flex;
+  align-items: center;
   text-decoration: none;
+}
+
+.brand-logo {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .site-nav {
