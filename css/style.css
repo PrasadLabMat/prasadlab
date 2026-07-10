@@ -304,6 +304,14 @@ body {
   display: block;
 }
 
+.logo-chip--tall {
+  padding: 3px 10px;
+}
+
+.logo-chip--tall img {
+  height: 34px;
+}
+
 @media (max-width: 560px) {
   .person-card--featured {
     flex-direction: column;
@@ -456,6 +464,20 @@ img.avatar {
 }
 
 .research-funding strong {
+  color: var(--color-text);
+}
+
+.research-funding a {
+  color: inherit;
+}
+
+.research-contributions {
+  margin: 8px 0 0 !important;
+  font-size: 0.8rem !important;
+  color: var(--color-text-muted);
+}
+
+.research-contributions strong {
   color: var(--color-text);
 }
 
