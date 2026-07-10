@@ -125,9 +125,18 @@ body {
 }
 
 .hero h1 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   font-size: clamp(2rem, 4vw, 2.9rem);
   margin: 0 0 18px;
   color: var(--color-primary);
+}
+
+.hero-logo-icon {
+  height: 1.1em;
+  width: auto;
+  flex-shrink: 0;
 }
 
 .hero-tagline {
@@ -625,12 +634,9 @@ img.avatar {
   max-height: 350px;
 }
 
-.scroll-list--grad {
-  max-height: 280px;
-}
-
-.scroll-list--undergrad {
-  max-height: 213px;
+.scroll-list--alumni {
+  max-height: 360px;
+  padding-right: 8px;
 }
 
 .news-list li {
