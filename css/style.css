@@ -281,8 +281,25 @@ body {
   line-height: 1.6;
 }
 
+.affiliation-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 18px;
+}
+
+.affiliation-group {
+  padding-left: 24px;
+  border-left: 1px solid var(--color-border);
+}
+
+.affiliation-group:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
 .affiliation-label {
-  margin: 18px 0 8px;
+  margin: 0 0 8px;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
