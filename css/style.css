@@ -444,6 +444,15 @@ img.avatar {
   flex-shrink: 0;
 }
 
+.funding-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0 16px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
 .funding-list li {
   display: flex;
   align-items: flex-start;
