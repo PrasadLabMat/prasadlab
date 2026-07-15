@@ -361,8 +361,7 @@ body {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--color-primary-light), var(--color-accent));
-  opacity: 0.25;
+  background: var(--color-border) url("../assets/images/default-avatar.svg") center / cover no-repeat;
   margin-bottom: 14px;
 }
 
