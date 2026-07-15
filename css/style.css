@@ -595,6 +595,17 @@ img.avatar {
   gap: 20px;
 }
 
+.photo-card {
+  display: block;
+  color: var(--color-text) !important;
+  text-decoration: none !important;
+}
+
+.photo-card:hover .photo-caption {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
 .photo-card img {
   width: 100%;
   aspect-ratio: 4 / 3;
