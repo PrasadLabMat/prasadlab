@@ -373,6 +373,16 @@ img.avatar {
 
 .person-card h4 { margin: 0 0 4px; }
 
+.person-card__link {
+  display: contents;
+  color: inherit;
+  text-decoration: none;
+}
+
+.person-card__link:hover h4 {
+  text-decoration: underline;
+}
+
 .role {
   color: var(--color-accent);
   font-size: 0.85rem;
