@@ -7,6 +7,9 @@
   --color-primary: #354049;
   --color-primary-light: #4d5c67;
   --color-accent: #3f8a7d;
+  --color-flyer-ink: #10243f;
+  --color-flyer-teal: #0b7a74;
+  --color-flyer-orange: #b45309;
   --shadow-card: 0 1px 2px rgba(24, 24, 40, 0.04), 0 4px 12px rgba(24, 24, 40, 0.06);
   --shadow-card-hover: 0 4px 8px rgba(24, 24, 40, 0.06), 0 12px 24px rgba(24, 24, 40, 0.1);
   --max-width: 1080px;
@@ -23,6 +26,9 @@
     --color-primary: #9fb0bd;
     --color-primary-light: #b7c4ce;
     --color-accent: #57bfae;
+    --color-flyer-ink: #e9eaf0;
+    --color-flyer-teal: #4fd1c0;
+    --color-flyer-orange: #f59e4b;
     --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.24);
     --shadow-card-hover: 0 4px 8px rgba(0, 0, 0, 0.24), 0 12px 24px rgba(0, 0, 0, 0.32);
   }
@@ -139,12 +145,28 @@ body {
   flex-shrink: 0;
 }
 
+/* Tagline styled like the lab flyer headline: bold ink text with the two
+   focus areas picked out in the flyer's teal and orange */
 .hero-tagline {
-  max-width: 760px;
-  color: var(--color-text-muted);
-  font-size: 1.05rem;
+  max-width: 880px;
+  color: var(--color-flyer-ink);
+  font-size: clamp(1.2rem, 2.2vw, 1.65rem);
+  font-weight: 600;
+  line-height: 1.4;
   margin: 0 0 32px;
   text-wrap: pretty;
+}
+
+.focus--regen { color: var(--color-flyer-teal); font-weight: 700; }
+.focus--composites { color: var(--color-flyer-orange); font-weight: 700; }
+
+.hero-tagline__more {
+  display: block;
+  margin-top: 10px;
+  color: var(--color-text-muted);
+  font-size: 0.65em;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 /* Keep key phrases on one line on wider screens; allow wrapping on phones */
