@@ -148,6 +148,7 @@ body {
 
 .hero-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 14px;
 }
 
@@ -506,6 +507,15 @@ img.avatar {
   margin: 0 0 10px;
   color: var(--color-primary);
   font-size: 1.15rem;
+}
+
+.research-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.research-card h3 a:hover {
+  text-decoration: underline;
 }
 
 .research-card p {
