@@ -140,10 +140,16 @@ body {
 }
 
 .hero-tagline {
-  max-width: 640px;
+  max-width: 760px;
   color: var(--color-text-muted);
   font-size: 1.05rem;
   margin: 0 0 32px;
+  text-wrap: pretty;
+}
+
+/* Keep key phrases on one line on wider screens; allow wrapping on phones */
+@media (min-width: 720px) {
+  .keep-together { white-space: nowrap; }
 }
 
 .hero-actions {
